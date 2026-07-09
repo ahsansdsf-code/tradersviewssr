@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const mongoose = require("mongoose");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const mongoUri = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/tradersview_pkr";
 const username = (process.env.ADMIN_USERNAME || "admin").trim();
