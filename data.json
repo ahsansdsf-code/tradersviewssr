@@ -1,0 +1,1535 @@
+{
+  "user": {
+    "id": "u-demo",
+    "name": "Demo User",
+    "username": "demo",
+    "email": "demo@tradersview.pk",
+    "balance": 118797,
+    "frozen": 0,
+    "kyc": "Required",
+    "credit": 100,
+    "twoFactor": false,
+    "phone": "",
+    "country": "PK"
+  },
+  "coins": [
+    [
+      "BTC",
+      "Bitcoin",
+      "#f7931a",
+      "B"
+    ],
+    [
+      "ETH",
+      "Ethereum",
+      "#627eea",
+      "E"
+    ],
+    [
+      "BNB",
+      "BNB",
+      "#f3ba2f",
+      "B"
+    ],
+    [
+      "XRP",
+      "XRP",
+      "#111111",
+      "X"
+    ],
+    [
+      "SOL",
+      "Solana",
+      "#111111",
+      "S"
+    ],
+    [
+      "TRX",
+      "TRON",
+      "#ef0027",
+      "T"
+    ],
+    [
+      "DOGE",
+      "Dogecoin",
+      "#c3a634",
+      "D"
+    ],
+    [
+      "ADA",
+      "Cardano",
+      "#0846a8",
+      "A"
+    ],
+    [
+      "BCH",
+      "Bitcoin Cash",
+      "#0ac18e",
+      "B"
+    ],
+    [
+      "LTC",
+      "Litecoin",
+      "#345d9d",
+      "L"
+    ],
+    [
+      "STX",
+      "Stacks",
+      "#5546ff",
+      "S"
+    ],
+    [
+      "MATIC",
+      "Polygon",
+      "#8247e5",
+      "P"
+    ],
+    [
+      "PKR",
+      "PKR Wallet",
+      "#149cff",
+      "Rs"
+    ]
+  ],
+  "tradeDurations": [
+    {
+      "label": "25 minutes",
+      "seconds": 1500
+    },
+    {
+      "label": "10 minutes",
+      "seconds": 600
+    },
+    {
+      "label": "5 minutes",
+      "seconds": 300
+    },
+    {
+      "label": "3 minutes",
+      "seconds": 180
+    },
+    {
+      "label": "2 minutes",
+      "seconds": 120
+    },
+    {
+      "label": "30 seconds",
+      "seconds": 30
+    },
+    {
+      "label": "10 seconds",
+      "seconds": 10
+    }
+  ],
+  "adminSettings": {
+    "captcha": {
+      "font": "monospace",
+      "style": "neon",
+      "length": 6,
+      "rotate": true
+    },
+    "siteName": "TradersView PKR",
+    "tagline": "Markets. Insights. Opportunities.",
+    "logoText": "TRADERSVIEW",
+    "faviconText": "TV",
+    "supportEmail": "support@tradersview.org",
+    "supportPhone": "+447418683034",
+    "address": "1317 Edgewater Drive, Suite 1880",
+    "maintenance": false,
+    "defaultTradeResult": "Auto",
+    "notifications": {
+      "email": true,
+      "sms": false,
+      "firebase": true,
+      "fromName": "TradersView PKR"
+    },
+    "seo": {
+      "title": "TradersView PKR",
+      "description": "PKR-only trading practice platform.",
+      "keywords": "PKR,trading,practice"
+    },
+    "frontend": {
+      "welcome": "Welcome to Traders View, your ultimate destination to learn, practice, and master trading with a PKR-only wallet.",
+      "newsletterText": "Subscribe for regular news and tips."
+    },
+    "kycFields": [
+      "Full Name",
+      "CNIC Number",
+      "Gender",
+      "CNIC Photo"
+    ],
+    "language": {
+      "default": "English",
+      "enabled": "English, Urdu"
+    },
+    "socialLogin": {
+      "google": false,
+      "facebook": false
+    },
+    "oauth": {
+      "googleClientId": "",
+      "facebookAppId": ""
+    },
+    "gatewayCredentials": {
+      "automatic": "Configure API keys in environment variables before enabling automatic live gateways."
+    },
+    "cron": {
+      "enabled": true,
+      "interval": "5 minutes"
+    },
+    "gdpr": {
+      "enabled": false,
+      "text": "This site uses cookies to improve your experience."
+    },
+    "customCss": "",
+    "sitemap": "/sitemap.xml",
+    "robots": "User-agent: *\nAllow: /",
+    "quickLinks": [
+      {
+        "label": "Home",
+        "path": "/dashboard"
+      },
+      {
+        "label": "Contact",
+        "path": "/contact"
+      },
+      {
+        "label": "Dashboard",
+        "path": "/dashboard"
+      }
+    ],
+    "pages": {
+      "termsOfUse": {
+        "title": "Terms of Use",
+        "body": "By using TradersView PKR, you agree to use this platform for lawful PKR-only practice trading and account management. You are responsible for keeping your login details safe and for reviewing your trade and deposit history."
+      },
+      "termsOfService": {
+        "title": "Terms of Service",
+        "body": "TradersView PKR provides a demo-style trading interface, admin controls, notifications, KYC workflow, deposit records, and PKR balance tools. Service availability can be changed by administrators through System Settings."
+      },
+      "privacyPolicy": {
+        "title": "Privacy Policy",
+        "body": "We store the details required for account, KYC, notification, support, and transaction features in the local backend data file. Admin users can manage this information from the admin panel."
+      },
+      "riskDisclaimer": {
+        "title": "Risk Disclaimer",
+        "body": "Trading practice screens are for learning and simulation. Market-style results, admin trade controls, and balances in this local project are not financial advice or a guarantee of profit."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Need help? Contact support@tradersview.org or call +447418683034. Our address is 1317 Edgewater Drive, Suite 1880."
+      }
+    },
+    "paymentMethods": [
+      "Bank Deposit",
+      "EasyPaisa",
+      "Jazz Cash"
+    ],
+    "withdrawalMethods": [
+      "Bank Transfer",
+      "EasyPaisa",
+      "Jazz Cash"
+    ],
+    "automaticGateways": [
+      "Aamarpay",
+      "Authorize.net",
+      "BTCPay",
+      "Binance",
+      "Blockchain",
+      "Cashmaal",
+      "Coinbase Commerce",
+      "Coingate",
+      "Paypal",
+      "PayStack"
+    ],
+    "adminProfile": {
+      "name": "admin",
+      "email": "support@tradersview.org",
+      "phone": "+447418683034",
+      "timezone": "Asia/Karachi",
+      "role": "Super Admin"
+    }
+  },
+  "deposits": [
+    {
+      "id": "D8546393FD6",
+      "gateway": "Bank Deposit",
+      "trx": "092CEE3EE5",
+      "user": "Demo User",
+      "amount": 11,
+      "status": "Rejected",
+      "date": "2026-06-26 15:20"
+    },
+    {
+      "id": "d1",
+      "gateway": "Jazz Cash",
+      "trx": "ZUV5JH3INWR",
+      "user": "Danish Ali",
+      "amount": 1300,
+      "status": "Approved",
+      "date": "2026-06-20 02:10"
+    },
+    {
+      "id": "d2",
+      "gateway": "EasyPaisa",
+      "trx": "POKKGQUQ36PI",
+      "user": "Manzoor Ali",
+      "amount": 6000,
+      "status": "Rejected",
+      "date": "2026-06-20 12:44"
+    },
+    {
+      "id": "d3",
+      "gateway": "Jazz Cash",
+      "trx": "IIRZI7VSRFHM",
+      "user": "Ch Irfan",
+      "amount": 1300,
+      "status": "Rejected",
+      "date": "2026-06-12 04:39"
+    }
+  ],
+  "trades": [
+    {
+      "id": "TF944E45081",
+      "userId": "u-demo",
+      "user": "Demo User",
+      "crypto": "ETH - PKR",
+      "amount": 66,
+      "seconds": 120,
+      "direction": "Up",
+      "openPrice": 483086,
+      "closePrice": 483086,
+      "profit": 53,
+      "result": "Win",
+      "status": "Completed",
+      "settled": true,
+      "createdAt": "2026-07-08 18:09",
+      "endsAt": 1783536027741,
+      "adminNote": "Waiting for admin result or timer",
+      "completedAt": "2026-07-08 18:40"
+    },
+    {
+      "id": "TF4FEA03376",
+      "userId": "u-demo",
+      "user": "Demo User",
+      "crypto": "ETH - PKR",
+      "amount": 66,
+      "seconds": 180,
+      "direction": "Up",
+      "openPrice": 483028,
+      "closePrice": 483028,
+      "profit": -66,
+      "result": "Loss",
+      "status": "Completed",
+      "settled": true,
+      "createdAt": "2026-07-08 18:09",
+      "endsAt": 1783536027743,
+      "adminNote": "Waiting for admin result or timer",
+      "completedAt": "2026-07-08 18:40"
+    },
+    {
+      "id": "T233996B326",
+      "userId": "u-demo",
+      "user": "Demo User",
+      "crypto": "ETH - PKR",
+      "amount": 66,
+      "seconds": 180,
+      "direction": "Up",
+      "openPrice": 483097,
+      "closePrice": 483097,
+      "profit": 53,
+      "result": "Win",
+      "status": "Completed",
+      "settled": true,
+      "createdAt": "2026-07-08 18:09",
+      "endsAt": 1783536027743,
+      "adminNote": "Waiting for admin result or timer",
+      "completedAt": "2026-07-08 18:40"
+    },
+    {
+      "id": "T5911665B4E",
+      "userId": "u-demo",
+      "user": "Demo User",
+      "crypto": "ETH - PKR",
+      "amount": 66,
+      "seconds": 180,
+      "direction": "Up",
+      "openPrice": 483097,
+      "closePrice": 483097,
+      "profit": -66,
+      "result": "Loss",
+      "status": "Completed",
+      "settled": true,
+      "createdAt": "2026-07-08 18:08",
+      "endsAt": 1783536027743,
+      "adminNote": "Waiting for admin result or timer",
+      "completedAt": "2026-07-08 18:40"
+    },
+    {
+      "id": "T54552BE2CB",
+      "userId": "u-demo",
+      "user": "Demo User",
+      "crypto": "ETH - PKR",
+      "amount": 66,
+      "seconds": 180,
+      "direction": "Up",
+      "openPrice": 483139,
+      "closePrice": 483139,
+      "profit": -66,
+      "result": "Loss",
+      "status": "Completed",
+      "settled": true,
+      "createdAt": "2026-07-08 18:08",
+      "endsAt": 1783536027743,
+      "adminNote": "Waiting for admin result or timer",
+      "completedAt": "2026-07-08 18:40"
+    },
+    {
+      "id": "T8EAE2C2E8C",
+      "userId": "u-demo",
+      "user": "Demo User",
+      "crypto": "BTC - PKR",
+      "amount": 1111,
+      "seconds": 600,
+      "direction": "Up",
+      "openPrice": 17303098,
+      "closePrice": 17303098,
+      "profit": -1111,
+      "result": "Loss",
+      "status": "Completed",
+      "settled": true,
+      "createdAt": "2026-07-08 17:48",
+      "endsAt": 1783533629913,
+      "adminNote": "Waiting for admin result or timer",
+      "completedAt": "2026-07-08 18:00"
+    },
+    {
+      "id": "T0F0FB01AE1",
+      "user": "Demo User",
+      "crypto": "BTC - PKR",
+      "amount": 1000,
+      "seconds": 300,
+      "direction": "Up",
+      "result": "Win",
+      "status": "Completed",
+      "createdAt": "2026-06-22 11:41",
+      "endsAt": 1782487339187,
+      "adminNote": "Admin selected result",
+      "completedAt": "2026-06-26 15:22",
+      "openPrice": 0,
+      "closePrice": 0,
+      "profit": 0,
+      "settled": true
+    },
+    {
+      "id": "TFABA63078E",
+      "user": "Demo User",
+      "crypto": "BTC - PKR",
+      "amount": 2500,
+      "seconds": 120,
+      "direction": "Down",
+      "result": "Loss",
+      "status": "Completed",
+      "createdAt": "2026-06-22 11:37",
+      "endsAt": 1782128300444,
+      "adminNote": "Verified admin loss control",
+      "completedAt": "2026-06-22 11:38",
+      "openPrice": 0,
+      "closePrice": 0,
+      "profit": 0,
+      "settled": true
+    },
+    {
+      "id": "TDC1230B004",
+      "user": "Demo User",
+      "crypto": "BTC - PKR",
+      "amount": 1500,
+      "seconds": 10,
+      "direction": "Up",
+      "result": "Win",
+      "status": "Completed",
+      "createdAt": "2026-06-22 11:36",
+      "endsAt": 1782128192801,
+      "adminNote": "Verified admin control",
+      "completedAt": "2026-06-22 11:36",
+      "openPrice": 0,
+      "closePrice": 0,
+      "profit": 0,
+      "settled": true
+    },
+    {
+      "id": "t1",
+      "user": "Rizwan Ullah",
+      "crypto": "BTC - PKR",
+      "amount": 5000,
+      "seconds": 120,
+      "direction": "Down",
+      "result": "Win",
+      "status": "Completed",
+      "createdAt": "2026-06-21 09:01",
+      "endsAt": 0,
+      "adminNote": "Seed result",
+      "openPrice": 0,
+      "closePrice": 0,
+      "profit": 0,
+      "settled": true
+    },
+    {
+      "id": "t2",
+      "user": "Manzoor Ali",
+      "crypto": "BTC - PKR",
+      "amount": 2500,
+      "seconds": 10,
+      "direction": "Up",
+      "result": "Draw",
+      "status": "Completed",
+      "createdAt": "2026-06-20 13:27",
+      "endsAt": 0,
+      "adminNote": "Seed result",
+      "openPrice": 0,
+      "closePrice": 0,
+      "profit": 0,
+      "settled": true
+    },
+    {
+      "id": "t3",
+      "user": "Muhammad Ibrahim",
+      "crypto": "BTC - PKR",
+      "amount": 10000,
+      "seconds": 180,
+      "direction": "Up",
+      "result": "Loss",
+      "status": "Completed",
+      "createdAt": "2026-06-19 08:42",
+      "endsAt": 0,
+      "adminNote": "Seed result",
+      "openPrice": 0,
+      "closePrice": 0,
+      "profit": 0,
+      "settled": true
+    }
+  ],
+  "users": [
+    [
+      "Farhad Ameer",
+      "UID6A37AAD6C7901",
+      "rry18028@gmail.com",
+      "PK",
+      0
+    ],
+    [
+      "Kamran Ali",
+      "UID6A35610F4D1F",
+      "ka7298752@gmail.com",
+      "PK",
+      33800
+    ],
+    [
+      "Muhammad Ibrahim",
+      "UID6A33F4A642AB2",
+      "shebazshebaz516@gmail.com",
+      "PK",
+      109000
+    ],
+    [
+      "Humayun Mustafa",
+      "UID6A341EFA4C9AD",
+      "humayun1400.hm@gmail.com",
+      "PK",
+      1047050
+    ]
+  ],
+  "notifications": [
+    {
+      "read": false,
+      "id": "N83712E4D67",
+      "to": "U52C1E75B82",
+      "subject": "Welcome",
+      "msg": "Your account has been created.",
+      "date": "2026-07-09 10:01"
+    },
+    {
+      "read": false,
+      "id": "N4F79C360D9",
+      "to": "u-demo",
+      "subject": "Trade Completed",
+      "msg": "ETH - PKR Up trade completed as Loss.",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "read": false,
+      "id": "NF2757A3143",
+      "to": "u-demo",
+      "subject": "Trade Completed",
+      "msg": "ETH - PKR Up trade completed as Loss.",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "read": false,
+      "id": "N4F56C4FDEC",
+      "to": "u-demo",
+      "subject": "Trade Completed",
+      "msg": "ETH - PKR Up trade completed as Win.",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "read": false,
+      "id": "N9279D954C1",
+      "to": "u-demo",
+      "subject": "Trade Completed",
+      "msg": "ETH - PKR Up trade completed as Loss.",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "read": false,
+      "id": "N19D1A92E47",
+      "to": "u-demo",
+      "subject": "Trade Completed",
+      "msg": "ETH - PKR Up trade completed as Win.",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "read": false,
+      "id": "NAFEBE2FBAE",
+      "to": "u-demo",
+      "subject": "Trade Completed",
+      "msg": "BTC - PKR Up trade completed as Loss.",
+      "date": "2026-07-08 18:00"
+    },
+    {
+      "read": true,
+      "id": "n1",
+      "to": "All Users",
+      "subject": "Welcome",
+      "msg": "PKR wallet is active.",
+      "date": "2026-06-22 03:41"
+    }
+  ],
+  "tickets": [
+    {
+      "subject": "Support Request",
+      "status": "Open",
+      "priority": "Normal",
+      "lastReply": "",
+      "id": "c1",
+      "user": "Faizan Khan",
+      "username": "fiz789",
+      "messages": 5
+    },
+    {
+      "subject": "Support Request",
+      "status": "Open",
+      "priority": "Normal",
+      "lastReply": "",
+      "id": "c2",
+      "user": "Muhammad Waleed",
+      "username": "raheeljutt",
+      "messages": 1
+    }
+  ],
+  "chat": [
+    {
+      "from": "support",
+      "text": "Hello, how can support help?",
+      "date": "2026-06-22 03:41"
+    }
+  ],
+  "balanceAdjustments": [],
+  "signals": [
+    {
+      "id": "s1",
+      "crypto": "BTC",
+      "direction": "High / Long",
+      "time": "3 minutes",
+      "schedule": "Manual / Always",
+      "status": "Active"
+    }
+  ],
+  "withdrawals": [],
+  "auditLogs": [
+    {
+      "id": "L0210EB6E46",
+      "actor": "ahsansdsf@gmail.com",
+      "action": "failed-login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin",
+        "username": "ahsansdsf@gmail.com"
+      },
+      "date": "2026-07-09 10:41"
+    },
+    {
+      "id": "L30A27D4CD1",
+      "actor": "demo",
+      "action": "failed-login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin",
+        "username": "demo"
+      },
+      "date": "2026-07-09 10:41"
+    },
+    {
+      "id": "L8D1464A6BD",
+      "actor": "admin",
+      "action": "failed-login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin",
+        "username": "admin"
+      },
+      "date": "2026-07-09 10:41"
+    },
+    {
+      "id": "L07E639799B",
+      "actor": "admin",
+      "action": "failed-login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin",
+        "username": "admin"
+      },
+      "date": "2026-07-09 10:41"
+    },
+    {
+      "id": "LC9AAE85990",
+      "actor": "admin",
+      "action": "failed-login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin",
+        "username": "admin"
+      },
+      "date": "2026-07-09 10:41"
+    },
+    {
+      "id": "LC92D582036",
+      "actor": "admin",
+      "action": "failed-login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin",
+        "username": "admin"
+      },
+      "date": "2026-07-09 10:41"
+    },
+    {
+      "id": "L1A3CDE5646",
+      "actor": "ahsansdsf@gmail.com",
+      "action": "failed-login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin",
+        "username": "ahsansdsf@gmail.com"
+      },
+      "date": "2026-07-09 10:41"
+    },
+    {
+      "id": "LF615D62310",
+      "actor": "ahsansdsf",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "user"
+      },
+      "date": "2026-07-09 10:39"
+    },
+    {
+      "id": "LC6A42E1C77",
+      "actor": "ahsansdsf",
+      "action": "register",
+      "entity": "auth",
+      "detail": {
+        "userId": "U52C1E75B82"
+      },
+      "date": "2026-07-09 10:01"
+    },
+    {
+      "id": "L4723287AA3",
+      "actor": "admin",
+      "action": "update",
+      "entity": "settings",
+      "detail": {
+        "keys": [
+          "adminProfile"
+        ]
+      },
+      "date": "2026-07-08 19:30"
+    },
+    {
+      "id": "L202CE17083",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-08 19:19"
+    },
+    {
+      "id": "L81155940CD",
+      "actor": "admin",
+      "action": "check",
+      "entity": "system-update",
+      "detail": {
+        "id": "UPDB6C68A5114",
+        "version": "5.0",
+        "status": "Checked",
+        "detail": "Application is running the local latest version.",
+        "date": "2026-07-08 19:00"
+      },
+      "date": "2026-07-08 19:00"
+    },
+    {
+      "id": "LDB3DDDAFB5",
+      "actor": "admin",
+      "action": "clear",
+      "entity": "system-cache",
+      "detail": {
+        "id": "SYS3EA08F013D",
+        "type": "Cache Clear",
+        "detail": "Price cache and rate buckets cleared",
+        "date": "2026-07-08 19:00"
+      },
+      "date": "2026-07-08 19:00"
+    },
+    {
+      "id": "L1820F2D08B",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-08 18:59"
+    },
+    {
+      "id": "LCC16BFF14F",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-08 18:58"
+    },
+    {
+      "id": "LA7C98B5BF9",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-08 18:49"
+    },
+    {
+      "id": "LFC96881DF5",
+      "actor": "admin",
+      "action": "clear",
+      "entity": "system-cache",
+      "detail": {
+        "id": "SYS91220DA5FD",
+        "type": "Cache Clear",
+        "detail": "Price cache and rate buckets cleared",
+        "date": "2026-07-08 18:47"
+      },
+      "date": "2026-07-08 18:47"
+    },
+    {
+      "id": "L03D5E49E8B",
+      "actor": "demo",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "user",
+        "demo": true
+      },
+      "date": "2026-07-08 18:47"
+    },
+    {
+      "id": "L16A5EDBBA4",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-08 18:47"
+    },
+    {
+      "id": "LC7394BA61E",
+      "actor": "demo",
+      "action": "update",
+      "entity": "profile",
+      "detail": {
+        "user": "demo"
+      },
+      "date": "2026-07-08 18:09"
+    },
+    {
+      "id": "L806016A9A2",
+      "actor": "demo",
+      "action": "create",
+      "entity": "trade",
+      "detail": {
+        "id": "TF944E45081",
+        "crypto": "ETH - PKR",
+        "amount": 66
+      },
+      "date": "2026-07-08 18:09"
+    },
+    {
+      "id": "L1FA7CA8729",
+      "actor": "demo",
+      "action": "create",
+      "entity": "trade",
+      "detail": {
+        "id": "TF4FEA03376",
+        "crypto": "ETH - PKR",
+        "amount": 66
+      },
+      "date": "2026-07-08 18:09"
+    },
+    {
+      "id": "LCB9B623F38",
+      "actor": "demo",
+      "action": "create",
+      "entity": "trade",
+      "detail": {
+        "id": "T233996B326",
+        "crypto": "ETH - PKR",
+        "amount": 66
+      },
+      "date": "2026-07-08 18:09"
+    },
+    {
+      "id": "LE7459C7A40",
+      "actor": "demo",
+      "action": "create",
+      "entity": "trade",
+      "detail": {
+        "id": "T5911665B4E",
+        "crypto": "ETH - PKR",
+        "amount": 66
+      },
+      "date": "2026-07-08 18:08"
+    },
+    {
+      "id": "L045F420046",
+      "actor": "demo",
+      "action": "create",
+      "entity": "trade",
+      "detail": {
+        "id": "T54552BE2CB",
+        "crypto": "ETH - PKR",
+        "amount": 66
+      },
+      "date": "2026-07-08 18:08"
+    },
+    {
+      "id": "LCF97C9FCE9",
+      "actor": "admin",
+      "action": "update",
+      "entity": "gateway",
+      "detail": {
+        "name": "Bank Deposit",
+        "status": "Enabled"
+      },
+      "date": "2026-07-08 18:02"
+    },
+    {
+      "id": "L35EBB18B8A",
+      "actor": "admin",
+      "action": "update",
+      "entity": "gateway",
+      "detail": {
+        "name": "Bank Deposit",
+        "status": "Disabled"
+      },
+      "date": "2026-07-08 18:02"
+    },
+    {
+      "id": "L304108B387",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-08 17:48"
+    },
+    {
+      "id": "L3BF90B5384",
+      "actor": "demo",
+      "action": "create",
+      "entity": "trade",
+      "detail": {
+        "id": "T8EAE2C2E8C",
+        "crypto": "BTC - PKR",
+        "amount": 1111
+      },
+      "date": "2026-07-08 17:48"
+    },
+    {
+      "id": "L2EF0450C05",
+      "actor": "demo",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "user"
+      },
+      "date": "2026-07-08 17:47"
+    },
+    {
+      "id": "L8E1F97C477",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-06 17:34"
+    },
+    {
+      "id": "L87EB585A68",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-06 17:34"
+    },
+    {
+      "id": "LAA58C2A92C",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "user"
+      },
+      "date": "2026-07-06 16:21"
+    },
+    {
+      "id": "L1851377D21",
+      "actor": "demo",
+      "action": "read",
+      "entity": "notification",
+      "detail": {
+        "noteId": "n1"
+      },
+      "date": "2026-07-06 16:13"
+    },
+    {
+      "id": "L919B239068",
+      "actor": "demo",
+      "action": "read",
+      "entity": "notification",
+      "detail": {
+        "noteId": "n1"
+      },
+      "date": "2026-07-06 16:13"
+    },
+    {
+      "id": "L575300CF98",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "user"
+      },
+      "date": "2026-07-06 16:13"
+    },
+    {
+      "id": "L0AB65CB8C6",
+      "actor": "demo",
+      "action": "update",
+      "entity": "password",
+      "detail": {
+        "user": "demo"
+      },
+      "date": "2026-07-06 16:02"
+    },
+    {
+      "id": "L1EEF68CD6E",
+      "actor": "demo",
+      "action": "update",
+      "entity": "profile",
+      "detail": {
+        "user": "demo"
+      },
+      "date": "2026-07-06 16:02"
+    },
+    {
+      "id": "L8DAB6051FB",
+      "actor": "admin",
+      "action": "update",
+      "entity": "gateway",
+      "detail": {
+        "name": "Bank Deposit",
+        "status": "Enabled"
+      },
+      "date": "2026-07-06 15:47"
+    },
+    {
+      "id": "LA3D961F52C",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "d2",
+        "status": "Rejected"
+      },
+      "date": "2026-07-06 15:47"
+    },
+    {
+      "id": "L6A9B3C090F",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Rejected"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "L1902DF0C3D",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Successful"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "LA43A91D433",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Approved"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "LDD24696CB6",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Approved"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "L0476F61311",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Approved"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "LC039703F21",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Approved"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "LE5042A0246",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Approved"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "L349B1AF58F",
+      "actor": "admin",
+      "action": "update",
+      "entity": "deposit",
+      "detail": {
+        "depositId": "D8546393FD6",
+        "status": "Approved"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "L8613507CA8",
+      "actor": "admin",
+      "action": "update",
+      "entity": "user",
+      "detail": {
+        "user": "Demo User",
+        "status": "Active"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "L234691A477",
+      "actor": "admin",
+      "action": "update",
+      "entity": "user",
+      "detail": {
+        "user": "Demo User",
+        "status": "Banned"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "LC9F861A023",
+      "actor": "admin",
+      "action": "update",
+      "entity": "user",
+      "detail": {
+        "user": "Demo User",
+        "status": "Active"
+      },
+      "date": "2026-07-06 15:46"
+    },
+    {
+      "id": "LF6DC1D0A32",
+      "actor": "admin",
+      "action": "update",
+      "entity": "settings",
+      "detail": {
+        "keys": [
+          "seo"
+        ]
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "LCF3F773399",
+      "actor": "admin",
+      "action": "delete",
+      "entity": "gateway",
+      "detail": {
+        "name": "QA Gateway"
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "L54D10F05B1",
+      "actor": "admin",
+      "action": "create",
+      "entity": "gateway",
+      "detail": {
+        "name": "QA Gateway",
+        "type": "paymentMethods"
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "L7CC47ABB5D",
+      "actor": "admin",
+      "action": "delete",
+      "entity": "signal",
+      "detail": {
+        "id": "S0D716F53D0"
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "LEAA7C8B1FF",
+      "actor": "admin",
+      "action": "create",
+      "entity": "signal",
+      "detail": {
+        "id": "S0D716F53D0",
+        "crypto": "BTC",
+        "direction": "High / Long",
+        "time": "3 minutes",
+        "schedule": "Manual / Always",
+        "status": "Active"
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "LF9176AF9E8",
+      "actor": "admin",
+      "action": "delete",
+      "entity": "coin",
+      "detail": {
+        "symbol": "QA9730"
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "L35455B51B8",
+      "actor": "admin",
+      "action": "update",
+      "entity": "coin",
+      "detail": {
+        "symbol": "QA9730",
+        "status": "Disabled"
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "L4478BBDF7E",
+      "actor": "admin",
+      "action": "create",
+      "entity": "coin",
+      "detail": {
+        "symbol": "QA9730"
+      },
+      "date": "2026-07-06 15:42"
+    },
+    {
+      "id": "L77B5D93296",
+      "actor": "admin",
+      "action": "login",
+      "entity": "auth",
+      "detail": {
+        "role": "admin"
+      },
+      "date": "2026-07-06 15:42"
+    }
+  ],
+  "coinStatuses": {
+    "BTC": "Enabled",
+    "ETH": "Enabled",
+    "BNB": "Enabled",
+    "XRP": "Enabled",
+    "SOL": "Enabled",
+    "TRX": "Enabled",
+    "DOGE": "Enabled",
+    "ADA": "Enabled",
+    "BCH": "Enabled",
+    "LTC": "Enabled",
+    "STX": "Enabled",
+    "MATIC": "Enabled",
+    "PKR": "System"
+  },
+  "gatewayStatuses": {
+    "Aamarpay": "Enabled",
+    "Authorize.net": "Enabled",
+    "BTCPay": "Enabled",
+    "Binance": "Enabled",
+    "Blockchain": "Enabled",
+    "Cashmaal": "Enabled",
+    "Coinbase Commerce": "Enabled",
+    "Coingate": "Enabled",
+    "Paypal": "Enabled",
+    "PayStack": "Enabled",
+    "Bank Deposit": "Enabled",
+    "EasyPaisa": "Enabled",
+    "Jazz Cash": "Enabled"
+  },
+  "userStatuses": {
+    "u-demo": "Active"
+  },
+  "transactions": [
+    {
+      "id": "XD5EDA7A441",
+      "userId": "U52C1E75B82",
+      "type": "Account Created",
+      "amount": 0,
+      "balanceBefore": 0,
+      "balanceAfter": 0,
+      "remark": "Registration",
+      "date": "2026-07-09 10:01"
+    },
+    {
+      "id": "XCBFFC6EAC4",
+      "userId": "u-demo",
+      "type": "Trade Loss",
+      "amount": -66,
+      "balanceBefore": 118797,
+      "balanceAfter": 118797,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "id": "XF82ADD11D5",
+      "userId": "u-demo",
+      "type": "Trade Loss",
+      "amount": -66,
+      "balanceBefore": 118797,
+      "balanceAfter": 118797,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "id": "X84D121458B",
+      "userId": "u-demo",
+      "type": "Trade Win",
+      "amount": 119,
+      "balanceBefore": 118678,
+      "balanceAfter": 118797,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "id": "X9D6910E02E",
+      "userId": "u-demo",
+      "type": "Trade Loss",
+      "amount": -66,
+      "balanceBefore": 118678,
+      "balanceAfter": 118678,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "id": "X5F2CA48528",
+      "userId": "u-demo",
+      "type": "Trade Win",
+      "amount": 119,
+      "balanceBefore": 118559,
+      "balanceAfter": 118678,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:40"
+    },
+    {
+      "id": "X46C79155BD",
+      "userId": "u-demo",
+      "type": "Trade Started",
+      "amount": -66,
+      "balanceBefore": 118625,
+      "balanceAfter": 118559,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:09"
+    },
+    {
+      "id": "X75835146AC",
+      "userId": "u-demo",
+      "type": "Trade Started",
+      "amount": -66,
+      "balanceBefore": 118691,
+      "balanceAfter": 118625,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:09"
+    },
+    {
+      "id": "XEB82FD3514",
+      "userId": "u-demo",
+      "type": "Trade Started",
+      "amount": -66,
+      "balanceBefore": 118757,
+      "balanceAfter": 118691,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:09"
+    },
+    {
+      "id": "X0F59480EF3",
+      "userId": "u-demo",
+      "type": "Trade Started",
+      "amount": -66,
+      "balanceBefore": 118823,
+      "balanceAfter": 118757,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:08"
+    },
+    {
+      "id": "X41488D63F9",
+      "userId": "u-demo",
+      "type": "Trade Started",
+      "amount": -66,
+      "balanceBefore": 118889,
+      "balanceAfter": 118823,
+      "remark": "ETH - PKR Up",
+      "date": "2026-07-08 18:08"
+    },
+    {
+      "id": "XB8666810B2",
+      "userId": "u-demo",
+      "type": "Trade Loss",
+      "amount": -1111,
+      "balanceBefore": 118889,
+      "balanceAfter": 118889,
+      "remark": "BTC - PKR Up",
+      "date": "2026-07-08 18:00"
+    },
+    {
+      "id": "XD6460102B9",
+      "userId": "u-demo",
+      "type": "Trade Started",
+      "amount": -1111,
+      "balanceBefore": 120000,
+      "balanceAfter": 118889,
+      "remark": "BTC - PKR Up",
+      "date": "2026-07-08 17:48"
+    }
+  ],
+  "referrals": [],
+  "kycSubmissions": [],
+  "authUsers": [
+    {
+      "id": "U52C1E75B82",
+      "name": "ahsan sdsf",
+      "email": "ahsansdsf@gmail.com",
+      "username": "ahsansdsf",
+      "passwordHash": "pbkdf2:ca333be5c5a200abec01f36ed255a0d1:7da5a3932b91112294573a9e0c2b0bf91206f82e30be392536f7804b307e893770c7dd8a0aab21bb40ea84b395adc95ecaaf8f316956f65fce3985ba61e025eb",
+      "role": "user",
+      "balance": 0,
+      "demoBalance": 100000,
+      "referralCode": "REF5612109F78",
+      "referredBy": "",
+      "kycStatus": "Required",
+      "kycData": {},
+      "walletAddresses": {},
+      "notifications": [],
+      "createdAt": "2026-07-09 10:01",
+      "emailVerified": false
+    }
+  ],
+  "passwordResetTokens": [],
+  "emailVerificationTokens": [],
+  "systemActions": [
+    {
+      "id": "SYS3EA08F013D",
+      "type": "Cache Clear",
+      "detail": "Price cache and rate buckets cleared",
+      "date": "2026-07-08 19:00"
+    },
+    {
+      "id": "SYS91220DA5FD",
+      "type": "Cache Clear",
+      "detail": "Price cache and rate buckets cleared",
+      "date": "2026-07-08 18:47"
+    }
+  ],
+  "updateLogs": [
+    {
+      "id": "UPDB6C68A5114",
+      "version": "5.0",
+      "status": "Checked",
+      "detail": "Application is running the local latest version.",
+      "date": "2026-07-08 19:00"
+    }
+  ],
+  "adminUsers": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "email": "admin@tradersview.pk",
+      "name": "admin",
+      "role": "admin",
+      "status": "Active",
+      "passwordHash": "pbkdf2:2fe313f7ab6587760f86d970533602c6:0081c08dba1fbcbff9c98530d3cd5cb4cd8ba9fb71feaeb4d9e8bac57dcf61b0d73a81a15a262d3337d21ea4cb9391681e15a793eff31181e9b9402b608123e0",
+      "createdAt": "2026-07-09 10:00"
+    }
+  ],
+  "subscribers": [],
+  "uploads": [],
+  "notificationHistory": []
+}

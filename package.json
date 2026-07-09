@@ -1,5 +1,25 @@
 {
+  "name": "tradersview-pkr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PKR-only trading platform backend and frontend.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed:admin": "node scripts/seed-admin.js",
+    "check": "node --check server.js && node --check app.js && node --check scripts/seed-admin.js"
+  },
   "dependencies": {
-    "adm-zip": "^0.5.18"
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
